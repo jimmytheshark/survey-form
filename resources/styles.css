@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Sacramento&display=swap');
+html{
+    font-size: 16px;
+}
+
+body{
+    background-image: url("cHJpdmF0ZS9zdGF0aWMvaW1hZ2VzL3dlYnNpdGUvMjAyMi0wNS93azYzMDUyNDQyLWltYWdlLWtwNmJvdjZ4LmpwZw.webp");
+}
+
+.container{
+    background-color: #f3f3f3;
+    font-family: Roboto, sans-serif;
+    padding: 2rem;
+    margin: 3rem auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 10px #636363;
+    max-width: 40rem;
+    position: relative;
+    z-index: 33;
+    color: #636363;
+}
+
+#title{
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 1px solid #636363;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    display: inline-block;
+}
+
+#description{
+    margin: 1rem auto;
+}
+
+main{
+    margin: 1rem auto;
+}
+
+.basic-info{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+input:not([type="checkbox"]):not([type="radio"]){
+    width: 100%;
+    margin-top: 5px;
+    height: 2.25rem;
+    border-radius: 3px;
+    padding: 0 5px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+#survey-form{
+    margin-top: 3rem;
+}
+
+.basic-info .form-item {
+    margin-right: 10px;
+  }
+
+.form-item{
+    margin: 1rem 0;
+}
+
+#dropdown, #dropdown-2{
+    margin: 0.5rem 0;
+    display: block;
+    width: 100%;
+    height: 2.25rem;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    padding: 0 2px;
+    
+}
+
+.recommendation{
+    margin-top: 0.5rem 0;
+
+}
+
+input[type="radio"]{
+    margin-top: 0.5rem;
+}
+
+.checkboxes{
+    margin-top: 0.5rem;
+}
+
+#comment{
+    width: 100%;
+    background-color: #ccc;
+    margin-top: 0.5rem;
+}
